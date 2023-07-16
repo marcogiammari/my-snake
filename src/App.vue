@@ -1,18 +1,18 @@
 <script>
-import AppHeader from './components/AppHeader.vue'
+import AppHeader from "./components/AppHeader.vue";
+import AppMain from "./components/AppMain.vue";
 
 export default {
-  components: {
-    AppHeader
-  }
-}
+    components: {
+        AppHeader,
+        AppMain,
+    },
+};
 </script>
 
 <template>
-  <AppHeader />
-  <h1 class="text-3xl font-bold underline">Prova</h1>
+    <AppHeader />
+    <AppMain />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
